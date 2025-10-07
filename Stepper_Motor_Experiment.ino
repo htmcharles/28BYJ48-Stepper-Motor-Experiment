@@ -1,7 +1,6 @@
 #include <Stepper.h>
 // Define the number of steps per revolution for your motor
-// Example: 28BYJ-48 has 2048 steps per revolution in full-step mode
-// If you’re using another motor, update this value
+// 28BYJ-48 has 2048 steps per revolution in full-step mode
 const int stepsPerRevolution = 2048;
 // Initialize the stepper library on pins (change if needed)
 Stepper myStepper(stepsPerRevolution, 8, 10, 9, 11);
